@@ -1,0 +1,58 @@
+body{
+    background-color:#fff;
+    display:flex;
+    min-height:98vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    flex:0 1 100%;
+    order:1;
+    margin-bottom:100px;
+}
+
+#header h2{
+    margin:7px;
+}
+
+#header h1{
+    margin-bottom:0px;
+}
+
+#main{
+    flex:1;
+    order:3;
+    text-align: center;
+    flex:1;
+    min-width:300px;
+     
+}
+#main p{
+    
+}
+ 
+
+#contact_info{
+    order:2;
+}
+
+#contact_info img{
+    top:40vh;
+    
+}
+
+#services_offered{
+    order:4;
+    flex 1;
+}
+#services_offered ul{
+    column-count:2;
+     list-style-position:inside;
+     
+}
+ 
