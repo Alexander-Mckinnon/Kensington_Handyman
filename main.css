@@ -25,10 +25,9 @@ body{
 }
 
 #main{
-    flex:1;
     order:3;
     text-align: center;
-    flex:1;
+    flex:0 1 75%;
     min-width:300px;
      
 }
@@ -48,11 +47,14 @@ body{
 
 #services_offered{
     order:4;
-    flex 1;
+    flex: 0 1 100%;
 }
 #services_offered ul{
-    column-count:2;
+    column-count:4;
      list-style-position:inside;
-     
+    text-align: 
 }
  
+#services_offered h4{
+    text-align: center;
+}
