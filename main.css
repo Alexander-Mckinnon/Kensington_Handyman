@@ -4,6 +4,7 @@ body{
     min-height:98vh;
     flex-direction: row;
     flex-wrap: wrap;
+    margin:0px;
     
 }
 
@@ -13,15 +14,13 @@ body{
     text-align: center;
     flex:0 1 100%;
     order:1;
-    margin-bottom:100px;
 }
-
-#header h2{
-    margin:7px;
-}
-
 #header h1{
-    margin-bottom:0px;
+    margin-top:0px;
+    margin-bottom:3px;
+}
+#header h2{
+    margin:3px;
 }
 
 #main{
@@ -29,7 +28,12 @@ body{
     text-align: center;
     flex:0 1 75%;
     min-width:300px;
+    position:relative;
      
+}
+#main h4{
+    position: relative;
+    right:5vh;
 }
 #main p{
     
@@ -40,11 +44,7 @@ body{
     order:2;
 }
 
-#contact_info img{
-    top:40vh;
-    
-}
-
+ 
 #services_offered{
     order:4;
     flex: 0 1 100%;
@@ -57,4 +57,12 @@ body{
  
 #services_offered h4{
     text-align: center;
+}
+
+@media (min-width: 550px){
+    main {
+        right:20vh;
+        color:red;
+    }
+    
 }
